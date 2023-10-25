@@ -4,9 +4,9 @@
 
     class GenerateMultiplicationTable
     {
-        public static function generate()
+        public static function generate($min = 1, $max = 10)
         {
-            for($i=1; $i<=10; $i++)
+            for($i=$min; $i<=$max; $i++)
             {
                 $multiplicationsTable = [];
                 for($y=1; $y<=10; $y++)
